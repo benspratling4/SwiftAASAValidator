@@ -163,7 +163,7 @@ extension String {
 			"lower":"[a-z]",
 			"alnum":"[a-zA-Z0-9]",
 			"digit":"[0-9]",
-			"xdigit":"[0-9z-fA-F]",
+			"xdigit":"[0-9a-fA-F]",
 		]
 		for (key, value) in standardReplacements {
 			pattern = pattern.replacingOccurrences(of: "$(\(key))", with: value)
